@@ -1,4 +1,5 @@
 import Questions.QCM;
+import Questions.RC;
 import Questions.VF;
 
 import java.io.BufferedReader;
@@ -26,11 +27,14 @@ public class Main {
             }
 
             // Premier VF
-            VF vf1 = new VF();
-            vf1.setQuestion("Je suis con ?");
-            vf1.Affichage();
-            String resVF = br.readLine();
-            vf1.isTrue(resVF);
+//            VF vf1 = new VF();
+//            vf1.setQuestion("Je suis con ?");
+//            vf1.Affichage();
+//            String resVF = br.readLine();
+//            vf1.isTrue(resVF);
+
+            RC rc1 = new RC();
+            rc1.questionRC();
         } catch (IOException e) {
             System.out.println("He ben gros con");
         }
